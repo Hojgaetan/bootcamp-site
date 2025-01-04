@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 1em;
+}
+.header, nav, ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.hero-section{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    margin: 110px 93px 0 93px;
+}
+.view-post{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+}
+.category .category-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.join{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+.all-posts{
+    display: flex;
+    flex-direction: column;
+}
+.posts-content{
+    display: flex;
+   gap: 15px;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.about-section{
+    display: flex;
+    flex-direction: column;
+}
+.about-section .calques{
+    display: flex;
+    justify-content: flex-end;
+}

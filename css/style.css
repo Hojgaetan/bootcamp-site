@@ -1,0 +1,266 @@
+.header{
+    background-color: #232536;
+    padding: 25px 80px 25px 80px; /* top right bottom left */
+}
+ul{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none; /* pas de ligne sur les elements
+                              du lien de menu */
+    font-family:'Inter', sans-serif;
+    color:#fff;
+    font-size: 16px;  /* taille de la police */
+    line-height: 28px; /* hauteur de la police */
+}
+#btn-white{
+    background-color: #fff; /* couleur de fond */
+    color: #232536;         /* couleur du texte dans le bouton */
+    font-family: 'Inter', sans-serif;
+    font-weight: bold; /* Le poids de la police */
+    font-size: 18px;   /* La taille de la police */
+    line-height: 24px; /* Hauteur des lignes */
+    border: none;
+    padding: 16px 48px; /* top-bottom right-left */
+}
+.btn-yellow{
+    background-color: #FFD050; /* couleur de fond */
+    color: #232536;         /* couleur du texte dans le bouton */
+    font-family: 'Inter', sans-serif;
+    font-weight: bold; /* Le poids de la police */
+    font-size: 18px;   /* La taille de la police */
+    line-height: 24px; /* Hauteur des lignes */
+    border: none;
+    padding: 16px 48px; /* top-bottom right-left */
+    margin-top: 48px;
+}
+.hero-section{
+    background-image: url('../images/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png');
+    background-size: cover;
+    /* padding: 118px 0px 202px 38px; */
+}
+.hero-section .hero-content{
+    margin: 118px 0px 202px 38px;
+}
+.hero-section .hero-content h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+.hero-section .hero-content h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: #ffffff;
+}
+.hero-section .hero-content h4, .hero-section .hero-content p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+}
+.hero-section .hero-content h4 span{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFD050;
+}
+section .futur-post h2, section .post h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #232536;
+}
+section .futur-post .pt-futur-post h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #4C4C4C;
+}
+section .futur-post .pt-futur-post h4 span{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #592EA9;
+}
+section .futur-post .pt-futur-post h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #232536;
+}
+section .futur-post .pt-futur-post p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #6D6E76;
+}
+section .futur-post .pt-futur-post{
+    padding: 1em;
+}
+section .futur-post{
+    width: 60%;
+}
+section .post{
+    width: 40%;
+}
+section .post .view-post button{
+    color:#592EA9;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+section .post .article h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#4C4C4C;
+}
+
+section .post .article{
+    padding: 2em 0 1.5em 2em;
+}
+section .post .article:hover{
+    padding: 2em 0 1.5em 2em;
+    background-color: #FBF6EA;
+    cursor: pointer;
+}
+section .post .article h4 span{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#592EA9;
+}
+section .post .article h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color:#232536;
+}
+.about-section .calques .calques-violet{
+    height: 23px;
+    width: 20%;
+    background-color: #592EA9;
+}
+.about-section .calques .calques-jaune{
+    height: 23px;
+    width: 60%;
+    background-color: #FFD050;
+}
+.about-section .about{
+    display: flex;
+    justify-content: space-between;
+    padding: 82px 108px;
+    background-color: #F4F0F8;
+}
+.about-section .about-us h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: #232536;
+}
+.about-section .about-us h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #232536;
+}
+.about-section .about-us p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6D6E76;
+}
+.about-section .about-us button{
+    color:#592EA9;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    border: none;
+    background-color: transparent;
+}
+.about-section .our-mission h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #232536;
+}
+.about-section .our-mission p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6D6E76;
+}
+.about-section .our-mission h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #232536;
+    letter-spacing: 3px;
+}
+.category .category-title h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #232536;
+}
+.category .category-cards .card{
+    padding: 2em;
+    border: 1px solid #6D6E76; /*  - taille la bordure
+                                   - type de bordure
+                                   - couleur de la bordure */
+
+}
+.category .category-cards .card:hover{
+    padding: 2em;
+    background-color: #FFD050;
+    cursor: pointer;
+}
+.category .category-cards .card h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #232536;
+}
+.category .category-cards .card p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6D6E76;
+}
+
